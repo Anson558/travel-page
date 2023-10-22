@@ -34,3 +34,29 @@
     text-transform: uppercase;
     font-size: 15px;
 }
+
+#highlights {
+    text-align: center;
+}
+
+#highlights h2 {
+    font-family: Cubano;
+    color: white;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+#destinations {
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+
+.destination img {
+    height: 250px;
+    border-radius: 4px;
+}
+
+.destination p{
+    color: white;
+}
