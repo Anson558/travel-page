@@ -1,6 +1,51 @@
+@font-face {
+    font-family: Cubano;
+    src: url("/cubano.ttf");
+}
+
 #hero {
     height: 800px;
     background-image: url("/images/places/ocean.jpg");
     background-position: center;
     background-size: cover;
+}
+
+#hero-content {
+    width: 900px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 250px;
+}
+
+#hero-content h1 {
+    color: white;
+    font-family: Cubano;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0;
+}
+
+#hero-content p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#hero-content a{
+    color: black;
+    font-size: 15px;
+    font-family: Cubano;
+    text-decoration: none;
+    background-color: #1db64b;
+    padding: 12px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+#hero-content a:hover{
+    background-color: #1ba043;
 }
