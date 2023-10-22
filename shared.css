@@ -6,6 +6,7 @@
 body {
     font-family: "Quicksand", sans-serif;
     margin: 0;
+    background-color: #12181b;
 }
 
 ul {
@@ -19,6 +20,9 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 40px;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 #page-logo{ 
@@ -33,13 +37,19 @@ header ul {
     display: flex;
 }
 
-header a {
-    margin-left: 20px;
+.button{
+    color: black;
+    font-size: 15px;
     font-family: Cubano;
-    color: #1db64b;
     text-decoration: none;
+    background-color: #25e35f;
+    padding: 12px;
+    display: inline-block;
+    border-radius: 8px;
+    margin: 5px;
 }
 
-header a:hover {
-    text-decoration: underline;
+.button:hover{
+    background-color: #24bb51;
 }
+
