@@ -3,6 +3,22 @@
     src: url("/cubano.ttf");
 }
 
+.button{
+    color: black;
+    font-size: 15px;
+    font-family: Cubano;
+    text-decoration: none;
+    background-color: #25e35f;
+    padding: 12px;
+    display: inline-block;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.button:hover{
+    background-color: #24bb51;
+}
+
 body {
     font-family: "Quicksand", sans-serif;
     margin: 0;
@@ -37,19 +53,23 @@ header ul {
     display: flex;
 }
 
-.button{
-    color: black;
-    font-size: 15px;
-    font-family: Cubano;
-    text-decoration: none;
-    background-color: #25e35f;
-    padding: 12px;
-    display: inline-block;
-    border-radius: 8px;
+footer {
+    background: linear-gradient(180deg, #131920, #12181b);
+    padding: 10px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    width: 80px;
+    height: 80px;
     margin: 5px;
 }
 
-.button:hover{
-    background-color: #24bb51;
+footer img {
+    height: 50px;
 }
 
